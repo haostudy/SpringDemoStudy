@@ -31,7 +31,6 @@ public class TestController {
         Map mapJson = new HashMap();
         String person;
         String optValues = request.getParameter("opt_values");
-        int i=1;
         if ("1".equals(optValues)){
             person = "姓名：张三，年龄：24，性别：男，出生地：广西南宁";
             mapJson.put("person",person);
